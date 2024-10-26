@@ -6,6 +6,9 @@ using System.Text;
 
 public class Person
 {
+    //GET SET LERİ PRİVATE YAPMAYINCA SONSUZ DÖNGÜYE SOKUP HATA VERİYOR
+//OYÜZDEN MECBUR PRİVATE YAPTIM 
+
     private string ad;        
     private string soyad;      
     private DateTime dgmTarihi;
@@ -45,9 +48,9 @@ public class Person
         
 
     }
-
-
-
-
-
+    
 }
+
+
+
+
